@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Language English-->
+
+<head> <!--Header-->
+    <meta charset="UTF-8"> <!--Meta es para navegadores, una biblioteca-->
+    <meta htt-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name "5500" content="width=device-width, initial-scale=1.0">
+    <title>Centro de Adopción</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+  <body>
+		
+    <form>
+      <h1>Contáctanos</h1>
+      
+ 				<label for="nombre">Nombre(s)*</label>
+        <input id="nombre" type="text" maxlength="50" placeholder="Escribe tu nombre aquí" required >
+
+        <br>
+        <br>
+
+        <label for="apellido paterno">Apellido Paterno*</label>
+        <input id="apellido paterno" placeholder="Escribe tu apellido paterno aquí" required>
+
+        <br>
+        <br>
+
+        <label for="apellido materno">Apellido Materno*</label>
+        <input id="apellido materno" placeholder="Escribe tu apellido materno aquí" required>
+
+        <br>
+        <br>
+      
+      	<label for="edad">Edad*</label>
+      	<input id="edad" type="number" min="18" required>
+      
+      	<br>
+      	<br>
+      
+        <label for="email">Email*</label>
+  			<input id="email" type="email" required>
+      
+    		<br>
+  			<br>
+      
+        <label for="tel">Número de Teléfono*</label>
+  			<input id="tel" type="tel" maxlength="13" value="+52" required>
+      
+      	<br>
+      	<br>
+      
+                   <label for="identificación">Sube una identificación oficial a continuación*</label>
+        <input id="identificación" type="file" accept=".pdf" placeholder="Sube tu identificación oficial en PDF" 						required>  
+      	
+      	<br>
+      
+      	<h2>Domicilio</h2>
+      
+      	<label for="calle">Calle*
+        <input id="calle">
+          
+        <label for="ext">Num. Ext*
+        <input id="ext">
+          
+        <label for="int">Num. Int*
+        <input id="int">
+          
+       	<br>
+        <br>
+          
+        <label for="colonia">Colonia*
+        <input id="colonia">
+          
+        <label for="estado">Estado*
+        <input id="estado">
+          
+        <label for="cp">Codigo Postal*
+        <input id="cp">
+      
+  			<br>
+     		<br>
+
+      
+      	<label>Quiero adoptar a: </label>
+        <input list="animales">
+        <datalist id="animales">
+            <option value="Simba" />
+            <option value="Morgana" />
+            <option value="Pepper" />
+            <option value="Max" />
+            <option value="Salchichilla" />
+        </datalist>
+      
+      	<br>
+      	<br>
+      
+  			<input type="submit" value="Enviar" required>
+      
+      	<br>
+  			<br>
+  
+    		
+    
+    
+    
+    </form>
